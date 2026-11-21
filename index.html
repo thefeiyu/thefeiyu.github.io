@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Feiyu Wu</title>
+  <meta name="description" content="Feiyu Wu, mechanical engineering student at Northeastern University. Projects, research, and resume.">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>⚙️</text></svg>">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600&family=IBM+Plex+Sans:ital,wght@0,400;0,500;0,600;1,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <a class="skip" href="#page" id="skip">skip to content</a>
+  <div class="shell">
+    <header class="bar">
+      <button id="dirToggle" class="btn dir-toggle" aria-expanded="false" aria-controls="dir">show directory</button>
+      <span id="path" class="path">~/readme.md</span>
+      <button id="themeToggle" class="btn">dark</button>
+    </header>
+    <nav id="dir" class="dir" aria-label="Site directory"></nav>
+    <main id="page" class="page" tabindex="-1"></main>
+    <footer id="titleblock" class="titleblock" aria-label="Page info"></footer>
+  </div>
+  <!-- All of your text lives in content.js. You should rarely need to touch the other files. -->
+  <script src="content.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
